@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+
+<html class="light" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Scaffolding &amp; Reno Co. - Ponteggi e Ristrutturazioni</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#137fec",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-[#0d141b] dark:text-white overflow-x-hidden">
+<!-- Top Navigation -->
+<header class="sticky top-0 z-50 w-full border-b border-solid border-b-[#e7edf3] bg-white/90 backdrop-blur-md px-4 py-3 lg:px-10 dark:border-gray-800 dark:bg-[#101922]/90">
+<div class="mx-auto flex max-w-[1280px] items-center justify-between">
+<div class="flex items-center gap-4 text-[#0d141b] dark:text-white">
+<div class="size-8 text-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-3xl">construction</span>
+</div>
+<h2 class="text-[#0d141b] dark:text-white text-lg font-bold leading-tight tracking-[-0.015em]">Scaffolding &amp; Reno Co.</h2>
+</div>
+<div class="hidden lg:flex flex-1 justify-end gap-8 items-center">
+<div class="flex items-center gap-9">
+<a class="text-[#0d141b] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Servizi</a>
+<a class="text-[#0d141b] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Chi Siamo</a>
+<a class="text-[#0d141b] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Progetti</a>
+<a class="text-[#0d141b] dark:text-gray-200 text-sm font-medium leading-normal hover:text-primary transition-colors" href="#">Contatti</a>
+</div>
+<button class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary hover:bg-primary/90 transition-colors text-white text-sm font-bold leading-normal tracking-[0.015em]">
+<span class="truncate">Richiedi un Preventivo</span>
+</button>
+</div>
+<!-- Mobile Menu Icon (Placeholder) -->
+<button class="lg:hidden text-[#0d141b] dark:text-white">
+<span class="material-symbols-outlined">menu</span>
+</button>
+</div>
+</header>
+<!-- Main Content -->
+<main class="flex flex-col min-h-screen">
+<!-- Hero Section -->
+<section class="relative flex flex-col justify-center overflow-hidden py-10 lg:py-20">
+<div class="container mx-auto px-4 lg:px-40">
+<div class="flex min-h-[560px] flex-col gap-6 bg-cover bg-center bg-no-repeat rounded-xl items-start justify-end px-4 pb-10 lg:px-10 shadow-xl overflow-hidden relative" data-alt="Complex scaffolding structure on a prestigious building facade" style='background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.7) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuCCc3aMAcc0m-9tonwfCyY2TuYLkuNV-OKHNjNcFVPKkIuzk5mikkI74pmw9Ad8oUjkKyYqhg770Og7_3RtNgB-lgJzN2HbkE1hDfQSOxXyVK8ITeF8qm2007vRHEkLjvtuaiVvCkPoojqpTgsB5bhzkKIJlPKeRC-1wQPJjvHCyQEiXBv-8cNS5IK4ibJaf6NhmEmGryjD4zX8FL8hSCQ7eFbwjEHjJLidVw9XjpUpemlfstEGr2fdlAYKj01iXE0I9fvm5fbDs2Y");'>
+<div class="flex flex-col gap-2 text-left max-w-3xl z-10">
+<h1 class="text-white text-4xl font-black leading-tight tracking-[-0.033em] lg:text-6xl">
+                            Soluzioni Professionali di Ponteggi e Ristrutturazioni
+                        </h1>
+<h2 class="text-gray-200 text-sm font-normal leading-normal lg:text-lg lg:leading-relaxed max-w-2xl">
+                            Leader nel noleggio, montaggio e smontaggio di ponteggi e nelle ristrutturazioni edili di alta qualità. Sicurezza, rapidità e competenza al tuo servizio.
+                        </h2>
+</div>
+<div class="flex gap-4 z-10 flex-wrap">
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-primary hover:bg-primary/90 text-white text-base font-bold leading-normal tracking-[0.015em] transition-all transform hover:scale-105 shadow-lg">
+<span class="truncate">I Nostri Servizi</span>
+</button>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-12 px-6 bg-white/10 backdrop-blur-sm border border-white/30 hover:bg-white/20 text-white text-base font-bold leading-normal tracking-[0.015em] transition-all">
+<span class="truncate">Contattaci</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section -->
+<section class="py-10 lg:py-16 bg-background-light dark:bg-background-dark">
+<div class="container mx-auto px-4 lg:px-40">
+<div class="flex flex-col gap-10">
+<div class="flex flex-col gap-6 md:flex-row md:justify-between md:items-end">
+<div class="flex flex-col gap-4 max-w-[720px]">
+<h2 class="text-[#0d141b] dark:text-white tracking-tight text-3xl font-bold leading-tight lg:text-4xl">
+                                I Nostri Servizi
+                            </h2>
+<p class="text-[#4c739a] dark:text-gray-400 text-base font-normal leading-normal">
+                                Offriamo una gamma completa di soluzioni per l'edilizia, garantendo sicurezza ed efficienza in ogni fase del progetto.
+                            </p>
+</div>
+<button class="flex min-w-[84px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-4 bg-primary/10 hover:bg-primary/20 text-primary text-sm font-bold leading-normal tracking-[0.015em] transition-colors">
+<span class="truncate">Vedi tutti i servizi</span>
+</button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<!-- Card 1 -->
+<div class="group flex flex-1 gap-4 rounded-xl border border-[#cfdbe7] dark:border-gray-700 bg-white dark:bg-[#1a2632] p-6 flex-col hover:shadow-lg transition-shadow">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">architecture</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#0d141b] dark:text-white text-xl font-bold leading-tight">Noleggio e Montaggio</h3>
+<p class="text-[#4c739a] dark:text-gray-400 text-sm font-normal leading-normal">
+                                    Soluzioni complete di ponteggi per ogni tipo di cantiere, dal noleggio all'installazione certificata da tecnici specializzati.
+                                </p>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="group flex flex-1 gap-4 rounded-xl border border-[#cfdbe7] dark:border-gray-700 bg-white dark:bg-[#1a2632] p-6 flex-col hover:shadow-lg transition-shadow">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">build_circle</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#0d141b] dark:text-white text-xl font-bold leading-tight">Servizi di Smontaggio</h3>
+<p class="text-[#4c739a] dark:text-gray-400 text-sm font-normal leading-normal">
+                                    Smontaggio rapido e sicuro delle strutture, gestito da team esperti per minimizzare i tempi e garantire la sicurezza del sito.
+                                </p>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="group flex flex-1 gap-4 rounded-xl border border-[#cfdbe7] dark:border-gray-700 bg-white dark:bg-[#1a2632] p-6 flex-col hover:shadow-lg transition-shadow">
+<div class="size-12 rounded-lg bg-primary/10 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">domain_add</span>
+</div>
+<div class="flex flex-col gap-2">
+<h3 class="text-[#0d141b] dark:text-white text-xl font-bold leading-tight">Ristrutturazioni Edilizie</h3>
+<p class="text-[#4c739a] dark:text-gray-400 text-sm font-normal leading-normal">
+                                    Ristrutturazioni complete per edifici residenziali e commerciali con finiture di pregio e gestione chiavi in mano.
+                                </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose Us -->
+<section class="py-10 lg:py-16">
+<div class="container mx-auto px-4 lg:px-40">
+<div class="flex flex-col gap-10">
+<div class="flex flex-col gap-4">
+<h2 class="text-[#0d141b] dark:text-white tracking-tight text-3xl font-bold leading-tight lg:text-4xl max-w-[720px]">
+                            Perché Sceglierci
+                        </h2>
+<p class="text-[#0d141b] dark:text-gray-300 text-base font-normal leading-normal max-w-[720px]">
+                            La nostra reputazione è costruita su anni di eccellenza, affidabilità e una dedizione totale alla sicurezza nei cantieri.
+                        </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<!-- Feature 1 -->
+<div class="flex flex-col gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl shadow-sm" data-alt="Construction engineer inspecting safety equipment and blueprints" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBK_4lI7lNo5fwtVdNLHTYrDs2BDvRa35wY8OQ5xLZ9-4pnYQG-nHsjNNwNuLIjFFvCf14_obh9AwEH5tWnCvz4tPiNALOjyGh0dNvuUHUCCugdXaHXTArva-oa3ar0P8CZzO2b62RXxNNrf_HUZjNOFT7VwnmFv-gfaT-TX2u5nFIWsVNf_f9-HTqrCFboKKddP7sRhBD30QoL8LOjjOI03GQezoztW3oxJUviI2_LDIETNcrQ2GVy23iHG7ycgfJXERZvWxhfXZ8");'></div>
+<div>
+<h3 class="text-[#0d141b] dark:text-white text-lg font-bold leading-normal mb-1 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">verified_user</span>
+                                    Sicurezza Certificata
+                                </h3>
+<p class="text-[#4c739a] dark:text-gray-400 text-sm font-normal leading-normal">
+                                    Rispettiamo i più alti standard di sicurezza sul lavoro (ISO 45001) con personale altamente qualificato e formazione continua.
+                                </p>
+</div>
+</div>
+<!-- Feature 2 -->
+<div class="flex flex-col gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl shadow-sm" data-alt="Time lapse blur of a busy construction site showing speed of execution" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDVwKsdLulrjXkjQYcF0BmJWBNYasDJC6Y2Iq_w1tCJ2aEBz0db06qkaT2-oaBIMKg1oJPR3oikim2kh4PX6YfTldcnv37DI9hXtIbYM95MPOVH7jn6LM02vJ4S44znw1r4hCSJoVhv4V0UkWxMLX1ciD9e4pEvHN8K6l_KuL8byoNkBCmXbL9lQjwrQtYz0rjjG8LEmoxSMA4Smd07n6ZDUlaJSmKgeVffGfcszjtACkNsklxMOO92KxvXkY4sZQBcswlLkgFUWdI");'></div>
+<div>
+<h3 class="text-[#0d141b] dark:text-white text-lg font-bold leading-normal mb-1 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">speed</span>
+                                    Rapidità di Esecuzione
+                                </h3>
+<p class="text-[#4c739a] dark:text-gray-400 text-sm font-normal leading-normal">
+                                    Ottimizziamo i tempi di cantiere grazie a una pianificazione rigorosa per garantire consegne puntuali senza compromessi sulla qualità.
+                                </p>
+</div>
+</div>
+<!-- Feature 3 -->
+<div class="flex flex-col gap-4">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl shadow-sm" data-alt="Low angle view of modern skyscrapers representing industry leadership" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBJ2jRSJamqJIk-13-AiHsQ5v3gWNSfw1ffAMv5ZkxRCY9eZ_VS1npzatKUmwETHkQC0HFc4bsMJdLDqAJ-PigKL8q0e_ryiK8BOeLhdBDL0z22VyTQmn_wIZp6huaNPqfqHlVAMkLiExAHU7aIVmlvq-4vhCqQVEf2asUHxB7KjXVW22kDpQpYue2-XC0Jc14kB3qeQUcUqt7f9V-HNrHlcQyrB6oVomB479suohYD3HfLbgxq1BWKilDcV4vAjXC9CfvKGldXIgI");'></div>
+<div>
+<h3 class="text-[#0d141b] dark:text-white text-lg font-bold leading-normal mb-1 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary">trophy</span>
+                                    Leader del Settore
+                                </h3>
+<p class="text-[#4c739a] dark:text-gray-400 text-sm font-normal leading-normal">
+                                    Oltre 20 anni di esperienza ci hanno reso il punto di riferimento per le grandi opere e le ristrutturazioni complesse.
+                                </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Projects Gallery -->
+<section class="py-10 lg:py-16 bg-white dark:bg-[#1a2632]">
+<div class="container mx-auto px-4 lg:px-40">
+<div class="flex flex-col gap-8">
+<div class="flex justify-between items-end">
+<div class="flex flex-col gap-2">
+<h2 class="text-[#0d141b] dark:text-white text-3xl font-bold">Progetti Recenti</h2>
+<p class="text-gray-500 dark:text-gray-400">Esplora alcune delle nostre realizzazioni più significative.</p>
+</div>
+<a class="hidden md:flex items-center gap-1 text-primary font-bold hover:underline" href="#">
+                            Vedi tutti i progetti <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</a>
+</div>
+<div class="w-full gap-2 lg:gap-4 overflow-hidden grid grid-cols-1 md:grid-cols-[2fr_1fr_1fr] md:grid-rows-2 h-[500px]">
+<!-- Large Main Image -->
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg md:row-span-2 relative group cursor-pointer" data-alt="Restoration scaffolding on a historic cathedral facade" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDeORyi3jj8feCtMhkfYi3XRWnh3AfZc2JTlBa6i0QikXJCIbvsNi0fuD4Ld-cc8z5_Mow8_2F7XIQeHttSog-3eN920nw0FynsjD9tpFYa4zYWPJUPGIgpxJB0x9yn7SYUyNwDYcaFAfKD-eNFWqoBlYq7SVnkSPqXve2OOZ1Cotdz3-Q3aQ1dEcnFp91ZXdGgeWFdO_w4mGlA_3604XRdU1rrmjfGdsLtfAw6Ij3LESGMj-LizR6chX9C4OySQuM-XaNnGf3Zw1w");'>
+<div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
+<div class="absolute bottom-4 left-4 text-white">
+<p class="font-bold text-lg">Duomo Restauro</p>
+<p class="text-sm opacity-90">Milano</p>
+</div>
+</div>
+<!-- Top Wide Image -->
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg md:col-span-2 relative group cursor-pointer" data-alt="Modern residential complex renovation site" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuCjb8LiQb0Y9BEPDWO1zNw8Pxpe-8bXG-XfRIISogDKelUf4dxEj15TeErxdZRubqUKJEXN4XwGRSkxOFVnpT0zL-3U5V_eq_orJkQNIQUB5QFWcZENFgPZGRkW5LqL6a9XqUzKHxFTv0up68fc-dqr314oW-LAN8CrQhl-Szok9B_rTqMztnNbgIPXL2uvBUWVuD7rIOzNAGEUdjoMwgC-MSxiEP7CDW3QlRu1K6r9rlvZl1eyk-vs8isnPdar1svEmnm6JzHe-UQ");'>
+<div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
+<div class="absolute bottom-4 left-4 text-white">
+<p class="font-bold">Complesso Residenziale Green</p>
+</div>
+</div>
+<!-- Bottom Left Image -->
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg relative group cursor-pointer" data-alt="Detail of steel scaffolding joints and wooden planks" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuA1sQjDGJOxxOd51AZwMhtVuNpTGOSpyLoXnOzMkaY2itHUeE3lDRxZ0zPFOdMq_RauSOA4s2Zi_tq9vecyG5bCNED6_oG-luVH17gqD-F15CxK_ZFRHCLHU5a7txoX3Js9joUywoj7-EzVahr69jfEQ0-FjWi89JZixI6fmhH5xrCO6__vilpvnjhTlDY8gb5QdEgDT58DmWtgXkoj7v2KrDcVvXyvT0ShRKCp4T_i4ckDO_-9nxyZEK1XuMWr5Y8aCXq4Q4ECvNE");'>
+<div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
+</div>
+<!-- Bottom Right Image -->
+<div class="w-full h-full bg-center bg-no-repeat bg-cover rounded-lg relative group cursor-pointer" data-alt="High rise building under construction with crane" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDso_XdE1X8LSjEzF32m5rv_8fE7cbGiSmQtqo-O3QSXGIMQt6_gpDsVkqDEX9q-NWd4cxrRtLdp-KG1wsrdSLPf5jZAy3NSCcbSEJfMZfj_wiIdCpzdX21g3Z2MPLIhgLhXnAvEUNUCdRd9F_3g_4C2-TSz3KmM43myShtd2BUXvBhOauvXO4ppLop8lduo5MboHJ5FCrmvthCscin-hSKCKwwRZs9qEKQ3IabYRkgD2asSWNU-E0Uu3qGjiUHpbYA5iY23mG7Eok");'>
+<div class="absolute inset-0 bg-black/30 group-hover:bg-black/10 transition-colors"></div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="py-16 bg-primary text-white">
+<div class="container mx-auto px-4 lg:px-40 text-center">
+<h2 class="text-3xl lg:text-4xl font-black mb-6">Pronto a iniziare il tuo progetto?</h2>
+<p class="text-lg text-white/90 mb-8 max-w-2xl mx-auto">Contattaci oggi per una consulenza gratuita. Il nostro team è pronto a fornirti le migliori soluzioni per ponteggi e ristrutturazioni.</p>
+<div class="flex justify-center gap-4">
+<button class="bg-white text-primary hover:bg-gray-100 font-bold py-3 px-8 rounded-lg shadow-lg transition-colors">
+                        Richiedi Preventivo
+                    </button>
+<button class="bg-transparent border-2 border-white text-white hover:bg-white/10 font-bold py-3 px-8 rounded-lg transition-colors">
+                        Chiamaci Ora
+                    </button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-background-dark text-white py-12 border-t border-gray-800">
+<div class="container mx-auto px-4 lg:px-40">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-10">
+<!-- Company Info -->
+<div class="col-span-1 md:col-span-1">
+<div class="flex items-center gap-2 mb-6">
+<span class="material-symbols-outlined text-primary text-3xl">construction</span>
+<h3 class="text-xl font-bold">Scaffolding &amp; Reno</h3>
+</div>
+<p class="text-gray-400 text-sm mb-6 leading-relaxed">
+                        Esperti in ponteggi e ristrutturazioni. Costruiamo il futuro su basi solide e sicure.
+                    </p>
+<div class="flex gap-4">
+<a class="text-gray-400 hover:text-white" href="#"><span class="material-symbols-outlined">public</span></a>
+<a class="text-gray-400 hover:text-white" href="#"><span class="material-symbols-outlined">mail</span></a>
+</div>
+</div>
+<!-- Quick Links -->
+<div>
+<h4 class="text-lg font-bold mb-6">Link Rapidi</h4>
+<ul class="flex flex-col gap-3 text-sm text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">Home</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Chi Siamo</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Servizi</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Progetti</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Lavora con noi</a></li>
+</ul>
+</div>
+<!-- Services -->
+<div>
+<h4 class="text-lg font-bold mb-6">Servizi</h4>
+<ul class="flex flex-col gap-3 text-sm text-gray-400">
+<li><a class="hover:text-primary transition-colors" href="#">Noleggio Ponteggi</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Montaggio &amp; Smontaggio</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Ristrutturazioni</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Consulenza Tecnica</a></li>
+</ul>
+</div>
+<!-- Contact -->
+<div>
+<h4 class="text-lg font-bold mb-6">Contatti</h4>
+<ul class="flex flex-col gap-4 text-sm text-gray-400">
+<li class="flex items-start gap-3">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<span>Via dell'Edilizia 45,<br/>20100 Milano (MI)</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">phone</span>
+<span>+39 02 123 4567</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-primary">email</span>
+<span>info@scaffoldingreno.it</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-gray-500">
+<p>© 2023 Scaffolding &amp; Reno Co. Tutti i diritti riservati.</p>
+<div class="flex gap-6 mt-4 md:mt-0">
+<a class="hover:text-white" href="#">Privacy Policy</a>
+<a class="hover:text-white" href="#">Termini di Servizio</a>
+</div>
+</div>
+</div>
+</footer>
+</body></html>
