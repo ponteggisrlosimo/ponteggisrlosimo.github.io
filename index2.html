@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html class="light" lang="it"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Home Page Ponteggi Professionale</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#1173d4",
+                        "safety-yellow": "#fbbf24",
+                        "charcoal": "#1e293b",
+                        "background-light": "#f6f7f8",
+                        "background-dark": "#101922",
+                    },
+                    fontFamily: {
+                        "display": ["Inter", "sans-serif"]
+                    },
+                    borderRadius: {
+                        "DEFAULT": "0.25rem",
+                        "lg": "0.5rem",
+                        "xl": "0.75rem",
+                        "full": "9999px"
+                    },
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-background-light dark:bg-background-dark text-slate-900 dark:text-slate-100 transition-colors duration-200">
+<div class="relative flex h-auto min-h-screen w-full flex-col group/design-root overflow-x-hidden">
+<div class="layout-container flex h-full grow flex-col">
+<header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-slate-200 dark:border-slate-800 px-10 py-3 sticky top-0 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-md z-50">
+<div class="flex items-center gap-4 text-charcoal dark:text-white">
+<div class="size-6 text-primary">
+<span class="material-symbols-outlined text-3xl">architecture</span>
+</div>
+<h2 class="text-charcoal dark:text-white text-lg font-black leading-tight tracking-tight uppercase">Ponteggi Professionali</h2>
+</div>
+<div class="flex flex-1 justify-end gap-8">
+<nav class="flex items-center gap-9">
+<a class="text-charcoal dark:text-slate-300 text-sm font-bold leading-normal hover:text-primary transition-colors" href="#">Home</a>
+<a class="text-charcoal dark:text-slate-300 text-sm font-bold leading-normal hover:text-primary transition-colors" href="#">Servizi</a>
+<a class="text-charcoal dark:text-slate-300 text-sm font-bold leading-normal hover:text-primary transition-colors" href="#">Progetti</a>
+<a class="text-charcoal dark:text-slate-300 text-sm font-bold leading-normal hover:text-primary transition-colors" href="#">Chi Siamo</a>
+</nav>
+<button class="flex min-w-[100px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary text-white text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/90 transition-all">
+<span class="truncate">Contatti</span>
+</button>
+</div>
+</header>
+<div class="flex flex-1 justify-center py-5">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1 px-4">
+<div class="@container">
+<div class="@[480px]:p-0">
+<div class="flex min-h-[600px] flex-col gap-6 bg-cover bg-center bg-no-repeat @[480px]:gap-8 rounded-xl items-start justify-center px-8 pb-10 @[480px]:px-16" data-alt="Struttura complessa di ponteggi su un grande grattacielo in costruzione" style='background-image: linear-gradient(rgba(16, 25, 34, 0.7) 0%, rgba(16, 25, 34, 0.4) 100%), url("https://lh3.googleusercontent.com/aida-public/AB6AXuDppVKE84Aflk0K2Sp3xRu4PazI4Z33rPL6Xzzmbnfkoin4rFQ1_-i50jjQW43uHkgMfZAYez-hMhGOoapc-QMh0TJyMnhUX0Ko5OEbecS-sbLDz9kWJ8GExbqWXAvJ91Xn_4wZ2YlfolNtbuGst_QwsVVtXiSZAOY1xCQG7Xys6RP7CavESb00TnTDqRWEoqoelJgGId5nzn8-2_6Mkvgdk73bY__1ZJaDJXnaPUU7n03qntiKQovekalPPY8DUqtTiVAlqfGohCRs");'>
+<div class="flex flex-col gap-4 text-left max-w-2xl">
+<div class="bg-safety-yellow text-charcoal text-xs font-black px-3 py-1 rounded uppercase w-fit">Leader del Settore</div>
+<h1 class="text-white text-5xl font-black leading-tight tracking-tight @[480px]:text-7xl">
+                                        Esperti nel Montaggio e Noleggio Ponteggi
+                                    </h1>
+<h2 class="text-slate-200 text-lg font-normal leading-relaxed @[480px]:text-xl">
+                                        Soluzioni professionali per progetti su larga scala. Montaggio, smontaggio e noleggio di attrezzature di alta qualità.
+                                    </h2>
+</div>
+<div class="flex gap-4">
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 px-6 bg-primary text-white text-base font-bold leading-normal tracking-[0.015em] hover:scale-105 transition-transform">
+<span class="truncate">Richiedi un Preventivo</span>
+</button>
+<button class="flex min-w-[160px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-14 px-6 bg-white/10 backdrop-blur-sm border border-white/20 text-white text-base font-bold leading-normal tracking-[0.015em] hover:bg-white/20 transition-all">
+<span class="truncate">Scopri di più</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex justify-center py-8 bg-white dark:bg-charcoal/30 border-y border-slate-200 dark:border-slate-800">
+<div class="flex flex-wrap justify-around items-center w-full max-w-[1200px] gap-8 px-10 opacity-50 grayscale hover:grayscale-0 transition-all">
+<span class="font-black text-2xl text-slate-400">BUILD-CORP</span>
+<span class="font-black text-2xl text-slate-400">STEEL-SYNC</span>
+<span class="font-black text-2xl text-slate-400">METRO-CON</span>
+<span class="font-black text-2xl text-slate-400">URBAN-GRID</span>
+</div>
+</div>
+<div class="flex flex-1 justify-center pt-12">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1 px-4">
+<div class="flex items-center gap-3 px-4">
+<div class="h-8 w-2 bg-safety-yellow"></div>
+<h2 class="text-charcoal dark:text-white text-3xl font-black leading-tight tracking-tight uppercase">I Nostri Servizi</h2>
+</div>
+</div>
+</div>
+<div class="flex flex-1 justify-center">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1">
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 p-4">
+<div class="group flex flex-1 gap-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-charcoal p-6 flex-col hover:border-primary transition-all">
+<div class="text-primary bg-primary/10 w-12 h-12 flex items-center justify-center rounded-lg group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">build</span>
+</div>
+<div class="flex flex-col gap-2">
+<h2 class="text-charcoal dark:text-white text-xl font-bold leading-tight">Montaggio</h2>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-relaxed">Ingegneria di precisione per strutture verticali complesse e ponteggi industriali.</p>
+</div>
+</div>
+<div class="group flex flex-1 gap-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-charcoal p-6 flex-col hover:border-primary transition-all">
+<div class="text-primary bg-primary/10 w-12 h-12 flex items-center justify-center rounded-lg group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">destruction</span>
+</div>
+<div class="flex flex-col gap-2">
+<h2 class="text-charcoal dark:text-white text-xl font-bold leading-tight">Smontaggio</h2>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-relaxed">Sgombero del cantiere sicuro, sistematico ed efficiente con record di zero incidenti.</p>
+</div>
+</div>
+<div class="group flex flex-1 gap-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-charcoal p-6 flex-col hover:border-primary transition-all">
+<div class="text-primary bg-primary/10 w-12 h-12 flex items-center justify-center rounded-lg group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">inventory_2</span>
+</div>
+<div class="flex flex-col gap-2">
+<h2 class="text-charcoal dark:text-white text-xl font-bold leading-tight">Noleggio</h2>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-relaxed">Noleggio di attrezzature in acciaio e alluminio di alta qualità per ogni durata.</p>
+</div>
+</div>
+<div class="group flex flex-1 gap-5 rounded-xl border border-slate-200 dark:border-slate-800 bg-white dark:bg-charcoal p-6 flex-col hover:border-primary transition-all">
+<div class="text-primary bg-primary/10 w-12 h-12 flex items-center justify-center rounded-lg group-hover:bg-primary group-hover:text-white transition-colors">
+<span class="material-symbols-outlined text-3xl">home_repair_service</span>
+</div>
+<div class="flex flex-col gap-2">
+<h2 class="text-charcoal dark:text-white text-xl font-bold leading-tight">Ristrutturazioni</h2>
+<p class="text-slate-500 dark:text-slate-400 text-sm font-normal leading-relaxed">Supporto specializzato per il restauro di edifici storici e aggiornamenti moderni.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-1 justify-center py-12">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1">
+<div class="flex flex-col gap-12 px-4 py-10 @container bg-charcoal rounded-3xl text-white">
+<div class="flex flex-col md:flex-row items-end justify-between gap-6">
+<div class="flex flex-col gap-4">
+<h1 class="text-white tracking-light text-4xl font-black leading-tight @[480px]:text-5xl @[480px]:tracking-[-0.033em] max-w-[720px] uppercase">
+                                    Perché Sceglierci
+                                </h1>
+<p class="text-slate-300 text-lg font-normal leading-relaxed max-w-[600px]">
+                                    Oltre 20 anni di leadership nel settore dei ponteggi con un impegno costante verso una politica di zero infortuni.
+                                </p>
+</div>
+<button class="bg-safety-yellow text-charcoal font-black py-3 px-8 rounded-lg hover:scale-105 transition-transform flex items-center gap-2">
+<span class="material-symbols-outlined">verified</span>
+                                Standard di Sicurezza Certificati
+                            </button>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+<div class="flex flex-col gap-4 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl border border-white/10" data-alt="Ingegnere in tenuta di sicurezza" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDrAJvOsf0ENQ5A1p5n28nfwWPQQ-vvSUcPUBSNa_EuLAIXXbUl3MBaBrWhR1XPdMTZMF0idHQ9x7AVvY-Uj092M5_UTmW3xIWSh4vGwDGZCGmnJW4POt5EaoUZSaYywbafoZwbqrw1MGyHHbyaOGnlKmG_7u0I5Ty7IVEnWdF6Jvk3UKha4h4hnvu5YzVpW48Wp6UWYnV78xoBA4ztiE5b5PRo9WR0Wo3rwsHdz378EyvxlbdnQhFbfMGtqcueIzlx3Fl8JSnkNvXu");'></div>
+<div class="px-2">
+<p class="text-white text-xl font-bold leading-normal mb-1">Leadership nel Settore</p>
+<p class="text-slate-400 text-sm font-normal leading-relaxed">Decenni di esperienza nella gestione di progetti complessi multifase su larga scala.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl border border-white/10" data-alt="Ponteggi con reti di sicurezza" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDHkOKUl-7a9_zQ62GT6_vROD5gSR8cUWYOfg-HtsDSQRMh05J0ZLOoYcs9gcGaq5aSxpoqnzKvZ9ZNhJU2etpLJhtMjZ8srR7jvEbGneQ59dPQw0lSKx7P3B3FIbhPoOhtV306ID6PEqxSlU0TZM4oPx_WVOqJN5fnqATgYDRzjSHzJT7U-5qhyGQ4eF8iFr7jyuvb0d3AKdFVd3pjnVKVWNg9_7lqHUBETU9wCxk9wTel7VM3z-hwD1jFIqWinpp1X9jCpkfS4fdc");'></div>
+<div class="px-2">
+<p class="text-white text-xl font-bold leading-normal mb-1">La Sicurezza Prima di Tutto</p>
+<p class="text-slate-400 text-sm font-normal leading-relaxed">Rigorosa adesione ai protocolli di sicurezza e agli standard ISO per proteggere tutto il personale.</p>
+</div>
+</div>
+<div class="flex flex-col gap-4 pb-3">
+<div class="w-full bg-center bg-no-repeat aspect-video bg-cover rounded-xl border border-white/10" data-alt="Team di cantiere al lavoro" style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuBz5WGPpBiO9RblYnXkZW112Ft2Tac33LfZ7GaOB_hOpYk7hiPgToCCxYpLDDeRkSpS8HO_8K5GuE2F9yCLsFC4Dznmpuvl2LLaYuoW_ejc7U_hyuvimY2X_yC7apmEzd4GMN4cFpw1BesEnrGNFR6F1IR3DiPvUe0DoJ1FdKzCHO8xu4mCve9T7hemdVYY6xADtNsc7ncA_Q06AO6tm6JU-2Lcr1_xeLoFCzlPytZlLWGBuEJPdSKGE-TIx0Rs5tNiBHQuxWlPgcyy");'></div>
+<div class="px-2">
+<p class="text-white text-xl font-bold leading-normal mb-1">Efficienza</p>
+<p class="text-slate-400 text-sm font-normal leading-relaxed">Flussi di lavoro e logistica ottimizzati per mantenere il tuo progetto di costruzione nei tempi previsti.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="flex flex-1 justify-center py-12">
+<div class="layout-content-container flex flex-col max-w-[1200px] flex-1 px-4">
+<div class="flex items-center gap-3 px-4 mb-10">
+<div class="h-8 w-2 bg-safety-yellow"></div>
+<h2 class="text-charcoal dark:text-white text-3xl font-black leading-tight tracking-tight uppercase">Progetti Recenti</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+<div class="relative group overflow-hidden rounded-xl h-[400px]">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Progetto grattacielo in vetro con ponteggi perimetrali" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCUZ5WfQqlovrEIgTFsHmUkix_Xq9vMRSLu5PAEo1hiRXmksf6th6kusljL0j59Wek01jIS5qhDSz5L9Dd5kuiMehf9gLH6kS7s4iq4U6yZs4hAhHPBSiIyyL2kR-A0dEFxkNqU18SAMoRosCAWOgdytduelRpkFh3ZEdOomV1_Sh1483oMah3UKRtflvLF0OKJawmwVuMk7TuScIjKvByTUUI8NiBTJBBNeA4SD-Ip-Ys_Hb00e9imQbdFNircLEE57hJlT-sK-lmU');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-charcoal to-transparent opacity-80"></div>
+<div class="absolute bottom-0 p-6">
+<span class="bg-primary text-white text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block">MILANO</span>
+<h3 class="text-white text-xl font-bold">La Guglia di Cristallo</h3>
+<p class="text-slate-300 text-sm">Montaggio completo ponteggio esterno</p>
+</div>
+</div>
+<div class="relative group overflow-hidden rounded-xl h-[400px]">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Cattedrale storica in restauro con ponteggi complessi" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuApw3SQ-mDAMuA_HqwCZPT3l5yIQpI0YPTH1P-2lMiT_8UmHPDaM_Z7tLrMwrO_XP_LBszr9OvUGMH7sPkvNvzwYuRkjEDbC4qUJogOgxV1YBeAGONYKgNKXfhZa3fJf2kUPbG5WeP2K82CMc6X2_KxjwIzhmIjxXew2J4zo2GYbEn4zfJCxFinHzVKER-7DRuUF8WsRFcbsByqZUX1nTRlgksZYOFnWWyuKHYL1WjAJbYWaf23kJIDwXA-5Xh7_ng2strVqNoPFBbG');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-charcoal to-transparent opacity-80"></div>
+<div class="absolute bottom-0 p-6">
+<span class="bg-primary text-white text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block">ROMA</span>
+<h3 class="text-white text-xl font-bold">Basilica Storica</h3>
+<p class="text-slate-300 text-sm">Supporto di precisione per il restauro</p>
+</div>
+</div>
+<div class="relative group overflow-hidden rounded-xl h-[400px]">
+<div class="absolute inset-0 bg-cover bg-center transition-transform duration-500 group-hover:scale-110" data-alt="Cantiere navale industriale con grandi gru e ponteggi" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuB-PHlKA-Q5XbvrAf8bYBEVMQe8UKkucdHy3VtQZmBSNxPWbsXGE7Fz9DrwCukLZCFgvFejTnW5KpPhn3Bvp44pVOQKmPFVoSLWvgPNfctKxVbv8C16eioEa-S_oiYGAsyFMqgZ-UWp3VOcnnoHxpgMW6MjeSvcW-xq_PiOuOYTLx0_tVG8n7FerhgyJaka1yT9906w9gVah3aNmaO6V4QjPHjfe58bIhIi1gyxtypqjYieggB1_fLs1-G2FxaNMrTb-MkNRo0AxJex');"></div>
+<div class="absolute inset-0 bg-gradient-to-t from-charcoal to-transparent opacity-80"></div>
+<div class="absolute bottom-0 p-6">
+<span class="bg-primary text-white text-[10px] font-bold px-2 py-1 rounded mb-2 inline-block">GENOVA</span>
+<h3 class="text-white text-xl font-bold">Centro Logistico Portuale</h3>
+<p class="text-slate-300 text-sm">Noleggio attrezzature industriali pesanti</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<footer class="bg-slate-100 dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 py-16 px-10">
+<div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-4 gap-12">
+<div class="flex flex-col gap-4">
+<div class="flex items-center gap-2 text-charcoal dark:text-white">
+<span class="material-symbols-outlined text-primary text-2xl">architecture</span>
+<h2 class="text-lg font-black uppercase">Ponteggi Professionali</h2>
+</div>
+<p class="text-slate-500 dark:text-slate-400 text-sm leading-relaxed">
+                            Forniamo le fondamenta per i progetti di costruzione più ambiziosi dal 1998.
+                        </p>
+</div>
+<div>
+<h3 class="text-charcoal dark:text-white font-bold mb-4">Servizi</h3>
+<ul class="flex flex-col gap-2 text-sm text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Montaggio e Allestimento</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Smontaggio in Sicurezza</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Noleggio Commerciale</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Consulenza Progetti</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-charcoal dark:text-white font-bold mb-4">Azienda</h3>
+<ul class="flex flex-col gap-2 text-sm text-slate-500 dark:text-slate-400">
+<li><a class="hover:text-primary transition-colors" href="#">Chi Siamo</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Casi di Studio</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Sicurezza</a></li>
+<li><a class="hover:text-primary transition-colors" href="#">Lavora con noi</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-charcoal dark:text-white font-bold mb-4">Contattaci</h3>
+<div class="flex flex-col gap-4">
+<p class="text-sm text-slate-500 dark:text-slate-400 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">location_on</span>
+                                Via dell'Industria, 120<br/>Roma, IT 00100
+                            </p>
+<p class="text-sm text-slate-500 dark:text-slate-400 flex items-center gap-2">
+<span class="material-symbols-outlined text-primary text-sm">phone</span>
+                                +39 06 1234 5678
+                            </p>
+</div>
+</div>
+</div>
+<div class="max-w-[1200px] mx-auto mt-16 pt-8 border-t border-slate-200 dark:border-slate-800 flex justify-between items-center text-xs text-slate-400">
+<p>© 2024 Ponteggi Professionali S.r.l. Tutti i diritti riservati.</p>
+<div class="flex gap-6">
+<a class="hover:text-white transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-white transition-colors" href="#">Termini di Servizio</a>
+</div>
+</div>
+</footer>
+</div>
+</div>
+</body></html>
